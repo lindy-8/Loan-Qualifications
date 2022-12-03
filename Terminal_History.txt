@@ -1,0 +1,70 @@
+linda@BLD MINGW64 ~/git/Qualifying_Loans_Mod2 (main)
+$ git -m "This is thankfully all of the required material for this challenge! Need to upload terminal history next."
+unknown option: -m
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+(base)
+linda@BLD MINGW64 ~/git/Qualifying_Loans_Mod2 (main)
+$ git commit -m "Thankfully this is all the required material for this challenge! I need to upload the terminal history next."
+[main 074c2c3] Thankfully this is all the required material for this challenge! I need to upload the terminal history next.
+ 19 files changed, 457 insertions(+), 1 deletion(-)
+ create mode 100644 Evidence Image.PNG
+ create mode 100644 loan_qualifier_app/README.md
+ create mode 100644 loan_qualifier_app/app.py
+ create mode 100644 loan_qualifier_app/data/daily_rate_sheet.csv
+ create mode 100644 loan_qualifier_app/qualified_loans.csv
+ create mode 100644 loan_qualifier_app/qualifier/filters/__pycache__/credit_score.cpython-37.pyc
+ create mode 100644 loan_qualifier_app/qualifier/filters/__pycache__/debt_to_income.cpython-37.pyc
+ create mode 100644 loan_qualifier_app/qualifier/filters/__pycache__/loan_to_value.cpython-37.pyc
+ create mode 100644 loan_qualifier_app/qualifier/filters/__pycache__/max_loan_size.cpython-37.pyc
+ create mode 100644 loan_qualifier_app/qualifier/filters/credit_score.py
+ create mode 100644 loan_qualifier_app/qualifier/filters/debt_to_income.py
+ create mode 100644 loan_qualifier_app/qualifier/filters/loan_to_value.py
+ create mode 100644 loan_qualifier_app/qualifier/filters/max_loan_size.py
+ create mode 100644 loan_qualifier_app/qualifier/utils/__pycache__/calculators.cpython-37.pyc
+ create mode 100644 loan_qualifier_app/qualifier/utils/__pycache__/fileio.cpython-37.pyc
+ create mode 100644 loan_qualifier_app/qualifier/utils/calculators.py
+ create mode 100644 loan_qualifier_app/qualifier/utils/fileio.py
+ create mode 100644 loan_qualifier_app/qualifying_loans.csv
+(base)
+linda@BLD MINGW64 ~/git/Qualifying_Loans_Mod2 (main)
+$ git push
+To github.com:lindy-8/Qualifying_Loans_Mod2
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:lindy-8/Qualifying_Loans_Mod2'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+(base)
+linda@BLD MINGW64 ~/git/Qualifying_Loans_Mod2 (main)
+$ git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+Unpacking objects: 100% (3/3), 1.60 KiB | 273.00 KiB/s, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+From github.com:lindy-8/Qualifying_Loans_Mod2
+   c505e82..1fae5c8  main       -> origin/main
+Merge made by the 'ort' strategy.
+ .gitignore | 129 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 129 insertions(+)
+ create mode 100644 .gitignore
+(base)
+linda@BLD MINGW64 ~/git/Qualifying_Loans_Mod2 (main)
+$ git push
+Enumerating objects: 33, done.
+Counting objects: 100% (32/32), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (28/28), done.
+Writing objects: 100% (29/29), 38.03 KiB | 1.23 MiB/s, done.
+Total 29 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), done.
+To github.com:lindy-8/Qualifying_Loans_Mod2
+   1fae5c8..de39bd2  main -> main
+(base)
